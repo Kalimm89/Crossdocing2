@@ -1,0 +1,37 @@
+* {
+    text-decoration: none;
+    font-family: 'Evolventa';  
+    font-style: normal; 
+    font-weight: 400;
+    max-width: 1920px;
+    text-decoration: none;
+    list-style-type: none; 
+    scroll-behavior: smooth;
+}
+.head_top {
+    height: 120px;
+}
+.head_top p{
+    padding-left: 16px;
+    font-size: 20px;
+}
+.menu_dif {
+    width: 170px;
+}
+.head_menu a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 165%;
+    text-transform: uppercase;
+    color: #141414;
+}
+.logo_header {
+    text-decoration: none;
+    color: #141414;
+}
+/* ________________________________________________________________________________________ */
+
+@media screen and (max-width: 768px) {
+    
+}
