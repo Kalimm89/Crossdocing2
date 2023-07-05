@@ -1,34 +1,78 @@
+/* ---Общие стили */
 * {
-    text-decoration: none;
-    font-family: 'Evolventa';  
+    font-family: 'Roboto-Regular';  
     font-style: normal; 
     font-weight: 400;
     max-width: 1920px;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style-type: none; 
     scroll-behavior: smooth;
+    letter-spacing: 0em;
 }
+/* ________________________________________________________________________________________ */
 .head_top {
-    height: 120px;
+    height: 100px;
 }
-.head_top p{
-    padding-left: 16px;
-    font-size: 20px;
-}
-.menu_dif {
-    width: 170px;
+.head_menu {
+    line-height: 18px;
+    letter-spacing: 0em;
 }
 .head_menu a {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 165%;
-    text-transform: uppercase;
-    color: #141414;
+    color: #191919;
 }
-.logo_header {
-    text-decoration: none;
-    color: #141414;
+.header_desc p {
+    margin-bottom: 0px;
+}
+.header_time {
+    width: 150px;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+.header_phone {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+.header_icons {
+    gap: 10px;
+}
+.head_menu_ab:hover > .dd_1 .dropdown-menu,
+.head_menu_ser:hover > .dropdown-menu {
+    display: block; 
+    position: absolute;
+    top: 64px;
+    padding-top: 10px;
+} 
+.dropdown-toggle {
+    color: #191919;
+}
+.dropdown-toggle::after {
+    border: 0px;
+}
+.head_menu_ab:hover,
+.head_menu_ser:hover {
+    border-bottom: 3px solid #075C6F;
+}
+.head_menu_ab:hover .dropdown-toggle,
+.head_menu_ser:hover .dropdown-toggle{
+    color: #075C6F;
+}
+.head_menu_ab:active,
+.head_menu_ser:active {
+    border: 3px solid #6FD7EA;
+}
+.dropdown-item {
+    padding: 8px 40px 8px 40px;
+    text-transform: uppercase;
+}
+.dropdown-item:hover {
+    color: #075C6F;
+    background-color: white;
+}
+.dropdown-item:active {
+    color: #040404;
+    background-color: #36C5DF;
 }
 /* ________________________________________________________________________________________ */
 
