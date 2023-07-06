@@ -74,8 +74,21 @@
     color: #040404;
     background-color: #36C5DF;
 }
+/* ___________________________________Modal_____________________________________________________ */
+.modal-header {
+    border-bottom: none;
+}
+.btn-close {
+    font-size: 30px;
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+}
 /* ________________________________________________________________________________________ */
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 1200px) {
+    .header_ad_phone a{
+        font-size: 18px;
+        line-height: 23px;
+        color: #1D1D1D;
+    }
 }
