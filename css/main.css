@@ -58,14 +58,11 @@
     color: #040404;
 }
 .gar_num {
-
     font-family: Roboto-Medium;
     font-size: 60px;
     font-weight: 500;
     line-height: 78px;
     letter-spacing: 0em;
-    text-align: center;
-
 }
 .gar_num span {
     font-family: Roboto-Regular; 
@@ -73,7 +70,6 @@
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
-    text-align: center;
 }
 /* ___________________________________about_us_____________________________________________________ */
 .about_us {
@@ -111,6 +107,7 @@
 }
 .params .card {
     border: 1px solid #E6E6E6 !important;
+    height: 100%;
 }
 .params .card p {
     font-size: 18px;
@@ -239,7 +236,7 @@
     line-height: 23px;
     color: #191919;
 }
-.accordion {
+.info .accordion {
     --bs-accordion-active-bg: none;
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #6FD7EA;
     --bs-accordion-active-color: #040404;
@@ -247,7 +244,6 @@
 /* ________________________________________________________________________________________ */
 
 @media screen and (max-width: 1280px) {
-    /* --intro */
     .intro {
         margin-bottom: 240px;
     }
@@ -263,5 +259,92 @@
 @media screen and (max-width: 1200px) {
     .carousel-item img {
         height: 450px !important;
+    }
+    .intro {
+        margin-bottom: 180px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro_desc h1 {
+        font-size: 36px;
+        line-height: 47px;
+    }
+    .intro_desc p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .gar_list {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .gar_desc {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .garant h2,
+    .about_us h2,
+    .params h2,
+    .serv .row h2,
+    .pertners h2,
+    .info h3 {
+        font-size: 28px;
+        line-height: 37px;
+        margin-bottom: 30px;
+    }
+    .gar_num {
+        font-size: 36px;
+        line-height: 40px;
+        /* width: 148px; */
+    }
+    .questions form {
+        width: 320px;
+    }
+    .questions button {
+        width: 320px;
+    }
+    .questions h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .questions p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 390px !important;
+    }
+    .intro_desc {
+        margin-top: 50px;
+    }
+    .intro_desc h1 {
+        font-size: 28px;
+        line-height: 37px;
+        width: auto;
+    }
+    .intro_desc p {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+    }
+    .intro_btn {
+        width: 320px;
+    }
+    .intro {
+        margin-bottom: 140px;
+    }
+    .garant h2,
+    .about_us h2,
+    .params h2,
+    .serv .row h2,
+    .pertners h2,
+    .info h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .params .card p {
+        font-size: 14px;
+        line-height: 20px;
     }
 }

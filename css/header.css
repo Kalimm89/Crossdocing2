@@ -9,6 +9,9 @@
     scroll-behavior: smooth;
     letter-spacing: 0em;
 }
+body {
+    overflow-x: hidden;
+}
 /* ________________________________________________________________________________________ */
 .head_top {
     height: 100px;
@@ -82,6 +85,49 @@
     font-size: 30px;
     padding-top: 20px !important;
     padding-right: 20px !important;
+}
+.modal-body_head .accordion-button,
+.modal-body_head a {
+    font-size: 15px;
+    line-height: 18px;
+    color: #040404;
+    text-transform: uppercase;
+}
+header .accordion-item {
+    max-width: 460px;
+}
+header .accordion {
+    --bs-accordion-active-bg: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    padding-top: 29px;
+    --bs-accordion-btn-active-icon: url('../img/btn-arrow.svg');
+}
+.accordion-button:not(.collapsed) {
+    color: #04A5C3;
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-90deg);
+}
+header .accordion .body_ac {
+    color: #4F4F4F;
+}
+.modal-footer {
+    justify-content: center;
+    padding-bottom: 50px;
+    border-top: none;
+}
+.mf_soc {
+    gap: 44px;
+    margin-bottom: 60px;
+}
+.mf_phone {
+    font-size: 18px;
+    line-height: 23px;
+    color: #1D1D1D;
+}
+.mf_ardess {
+    font-size: 12px;
+    line-height: 17px;
 }
 /* ________________________________________________________________________________________ */
 

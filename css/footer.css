@@ -100,3 +100,36 @@
     color: #F6F6F6;
     border-color: #6FD7EA;
 }
+/* _______________________________________mobile_________________________________________________ */
+.footer_mobile h4 {
+    font-size: 16px;
+    line-height: 22px;
+}
+.footer_mobile .f_phone {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+}
+.footer_mobile .f_mail {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 15px !important;
+}
+.footer_mobile .f_adress {
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer_mobile_about {
+    max-width: 300px;
+}
+.footer_mobile_top {
+    margin-bottom: 36px;
+}
+.firm {
+    font-size: 12px;
+    line-height: 17px;
+    color: #6FD7EA;
+}
+.footer_mobile_soc a {
+    margin-left: 20px;
+}
